@@ -35,12 +35,12 @@
     - `Favorite` belongsTo `Product`
 
 4. **Đảm bảo bảo mật (Security)**:
-   - ✅ CSRF protection (sử dụng `@csrf`)
-   - ✅ Escape dữ liệu đầu ra tránh XSS (`{{ $var }}`)
-   - ✅ Xác thực & phân quyền (`Auth`, middleware)
-   - ✅ Validation dữ liệu đầu vào (`FormRequest`, `validate`)
-   - ✅ Dùng query builder/Eloquent (tránh SQL Injection)
-   - ✅ Sử dụng session & cookies an toàn theo Laravel chuẩn
+   -  CSRF protection (sử dụng `@csrf`)
+   -  Escape dữ liệu đầu ra tránh XSS (`{{ $var }}`)
+   -  Xác thực & phân quyền (`Auth`, middleware)
+   -  Validation dữ liệu đầu vào (`FormRequest`, `validate`)
+   -  Dùng query builder/Eloquent (tránh SQL Injection)
+   -  Sử dụng session & cookies an toàn theo Laravel chuẩn
 
 5. **Triển khai cơ sở dữ liệu trên Cloud**:
    - Sử dụng dịch vụ database cloud (ví dụ: Aiven PostgreSQL)
